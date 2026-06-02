@@ -1,0 +1,16 @@
+1. Open first terminal
+Ctrl + Alt + T
+Source wkspace: . install/setup.bash
+Run this command:
+ros2 launch ur_simulation_gz ur_sim_control.launch.py ur_type:=ur12e
+
+2. Open second terminal
+Source wkspace
+Run this command:
+ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur12e use_sim_time:=true launch_rviz:=true
+
+3. Open third terminal
+Source wkspace
+Run this command:
+ros2 run vision_control_pkg motion_controller
+

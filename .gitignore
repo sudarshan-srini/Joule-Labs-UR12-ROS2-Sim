@@ -1,0 +1,20 @@
+# ROS 2 Build Artifacts
+build/
+install/
+log/
+
+# Python caching and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# System and IDE configurations
+.DS_Store
+.vscode/
+.idea/
+*.user
+
+# Local developer environment settings
+.env
