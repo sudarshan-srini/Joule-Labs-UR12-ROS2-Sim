@@ -24,7 +24,7 @@ git clone https://github.com/sudarshan-srini/Joule-Labs-UR12-ROS2-Sim.git
 
 # Clone required UR simulation and description packages
 git clone -b jazzy https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
-git clone -b jazzy https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
+git clone -b ros2 https://github.com/UniversalRobots/Universal_Robots_ROS2_GZ_Simulation.git
 ```
 ### 2.  Resolve System Dependencies
 Use rosdep to automatically scan the package configuration files and pull down all missing C++ binaries, Python modules (e.g., scipy), and core ROS 2 libraries required by the architecture:
