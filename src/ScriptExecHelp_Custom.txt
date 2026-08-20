@@ -1,0 +1,16 @@
+1. Open first terminal
+Ctrl + Alt + T
+Source wkspace: . install/setup.bash
+Run this command:
+ros2 launch jl_custom_desc sim.launch.py
+
+2. Open second terminal
+Source wkspace
+Run this command:
+ros2 launch jl_custom_desc moveit.launch.py
+
+3. Open third terminal
+Source wkspace
+Run this command:
+ros2 run vision_control_pkg motion_controller --ros-args -p use_sim_time:=true
+
